@@ -1,0 +1,15 @@
+{
+	"name": "srifactoryazureproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "20836327-1436-4500-9926-6ef2f1605b0a",
+		"tenantId": "d50d80dd-7b88-4cd0-bcb3-182409afeb04"
+	}
+}
